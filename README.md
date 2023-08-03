@@ -2,6 +2,8 @@
 
 We used computer vision (U-Net) model to leverage Standardized Precipitation Evapotranspiration Index (SPEI), Google Trends Search Interest (SI), and Twitter data to understand patterns with which people in Continental United States (CONUS) indicate awareness of and interest in droughts.
 
+[![DOI](https://zenodo.org/badge/674305649.svg)](https://zenodo.org/badge/latestdoi/674305649)
+
 ## Usage
 
 1_get_trends_data.py - This script uses the Google Trends API to gather data about the search interest for the term "droughts" over a specified date range (from 2004 to 2022). The data is retrieved on a per-region basis, both for US and global regions. Then, using geopandas and matplotlib, the script generates choropleth maps that visually depict the search interest data for the term "droughts". 
