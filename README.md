@@ -1,6 +1,8 @@
-# Title: Understanding Drought Awareness from Web Data
+# Understanding the Complex Nonlinear Dynamics between Droughts and Drought Awareness over Continental United States
 
-We used computer vision (U-Net) model to leverage Standardized Precipitation Evapotranspiration Index (SPEI), Google Trends Search Interest (SI), and Twitter data to understand patterns with which people in Continental United States (CONUS) indicate awareness of and interest in droughts.
+The relationship between changing meteorological conditions and corresponding public interest in droughts is complex. Understanding this phenomenon has the potential to aid decision making and policy for water management and conservation strategies, and socioeconomic outcomes. We used computer vision to analyze nonlinear relationships between Standardized Precipitation Evapotranspiration Index (SPEI) and Google Trends Search Interest, and we used Twitter data to asses awareness and sentiments abut droughts within the Continental United States (CONUS). We found significant complex, nonlinear relationships between drought conditions, as measured by SPEI, and search interest on drought topics over CONUS. This relationship was the strongest for Western states, followed by Northeastern, Southeastern, and Central regions. Search interest tends to lag droughts by a period of ~1-3 months. We found that even though there is a statistically significant linear correlation between trends in SPEI and corresponding search interest trends on droughts, there was no analogous correlation between the relationship captured by our models and SPEI trends, underscoring the complexity of these dynamics. We additionally applied sentiment analysis on a subset of 2.5 million georeferenced tweets related to droughts and found that people's sentiments towards drought have become increasingly positive with decreasing neutral sentiments since 2014 within the United States.
+
+This repository contains the all the codes used in the study. The Google Trends, SPEI, and Twitter dataset used in this study have not been uploaded due to data and privacy restrictions. 
 
 ## Usage
 
@@ -27,6 +29,10 @@ We used computer vision (U-Net) model to leverage Standardized Precipitation Eva
 
 10_drought_hotspots.py - This script generates maps of SPEI over set time periods for CONUS.
 
-11_trend_analysis.py - This script performs trend analysis using the SPEI and SI datasets and generates figures. 
+11_tweet_sentiment_analysis.py - This script performs the geoencoding of tweets and the time series analysis of sentiments. 
 
-12_tweet_sentiment_analysis.py - This script performs sentiment analysis on Twitter data and creates a time series of the percentage of different sentiments.
+12_pca.py - This script contains the codes for PCA on our data and also generates figures needed for 13_all_panels.py.
+
+13_all_panels.py - This script has the codes for post-hoc analysis of the drought and drought awareness datasets and models. It also generates figure panels 4 to 8.
+
+
