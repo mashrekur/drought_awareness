@@ -2,7 +2,9 @@
 
 The relationship between changing meteorological conditions and corresponding public interest in droughts is complex. Understanding this phenomenon has the potential to aid decision making and policy for water management and conservation strategies, and socioeconomic outcomes. We used computer vision to analyze nonlinear relationships between Standardized Precipitation Evapotranspiration Index (SPEI) and Google Trends Search Interest, and we used Twitter data to asses awareness and sentiments abut droughts within the Continental United States (CONUS). We found significant complex, nonlinear relationships between drought conditions, as measured by SPEI, and search interest on drought topics over CONUS. This relationship was the strongest for Western states, followed by Northeastern, Southeastern, and Central regions. Search interest tends to lag droughts by a period of ~1-3 months. We found that even though there is a statistically significant linear correlation between trends in SPEI and corresponding search interest trends on droughts, there was no analogous correlation between the relationship captured by our models and SPEI trends, underscoring the complexity of these dynamics. We additionally applied sentiment analysis on a subset of 2.5 million georeferenced tweets related to droughts and found that people's sentiments towards drought have become increasingly positive with decreasing neutral sentiments since 2014 within the United States.
 
-This repository contains the all the codes used in the study. The Google Trends, SPEI, and Twitter dataset used in this study have not been uploaded due to data and privacy restrictions. 
+This repository contains the all the codes used in the study. The Google Trends, SPEI, and Twitter dataset used in this study have not been uploaded due to data and privacy restrictions.
+
+[![DOI](https://zenodo.org/badge/674305649.svg)](https://zenodo.org/doi/10.5281/zenodo.8212807)
 
 ## Usage
 
