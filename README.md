@@ -37,4 +37,10 @@ This repository contains the all the codes used in the study. The Google Trends,
 
 13_all_panels.py - This script has the codes for post-hoc analysis of the drought and drought awareness datasets and models. It also generates figure panels 4 to 8.
 
+14_additional_analysis.py - This script performs additional analysis supplemental to 12_all_panels.py
+
+15_rfr.py - This script performs the feature importance analysis 
+
+16_pca.py - This script performs the PCA 
+
 
